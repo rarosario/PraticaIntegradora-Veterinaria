@@ -20,7 +20,7 @@ public class Proprietario {
 
     @Override
     public String toString() {
-        return "Proprietario -- " +
+        return "Proprietario(a) -- " +
                 "Id = " + id +
                 " - Nome = " + nome +
                 " - Sobrenome = " + sobrenome +

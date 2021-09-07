@@ -18,7 +18,7 @@ public class Veterinario {
 
     @Override
     public String toString() {
-        return "Veterinario " +
+        return "Veterinario(a) " +
                 "Rg = " + rg +
                 " - Nome = " + nome +
                 " - Sobrenome = " + sobrenome +

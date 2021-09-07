@@ -14,7 +14,7 @@ public class Main {
         AnimaisDomesticos gatos = new AnimaisDomesticos(2, "Gato", "Siamês", "Branco/Preto", "03/09/2018","Josecleide.");
         AnimaisDomesticos porquinhos = new AnimaisDomesticos(3, "Porquinho-da-india", "Abissínio", "Marrom", "19/07/2015","Jurema.");
         AnimaisDomesticos coelhos = new AnimaisDomesticos(4, "Coelho", "French Lop", "Branco/Marrom", "13/06/2017","Pernalonga.");
-        AnimaisDomesticos tartarugas = new AnimaisDomesticos(5, "Tartaruga", "Jabuti", "Preto/Amarelo", "02/01/1963","Donatello.");
+        AnimaisDomesticos tartarugas = new AnimaisDomesticos(5, "Tartaruga", "Jabuti-piranga", "Preto/Amarelo", "02/01/1963","Donatello.");
 
         AnimaisFazenda cavalos = new AnimaisFazenda(6, "cavalo", "Frísio", "Preto","17/03/2002","Gaspar." );
         AnimaisFazenda vacas = new AnimaisFazenda(7, "vaca", "Hereford", "Marron","21/11/2010","Maricleia." );
