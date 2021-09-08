@@ -26,7 +26,7 @@ public class AnimaisFazenda {
                 " - especie = " + especie +
                 " - raça = " + raca +
                 " - cor = " + cor +
-                " \n               -- Data de nascimento = " + dataNascimento +
+                " \n                  -- Data de nascimento = " + dataNascimento +
                 " - nome = " + nome;
     }
 }

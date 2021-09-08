@@ -26,10 +26,10 @@ public class Consulta {
     @Override
     public String toString() {
         return "Consulta -- " +
-                " data = " + data +
+                "data = " + data +
                 " - motivo = " + motivo +
                 " - diagnostico = " + diagnostico +
-                " \n         -- tratamento = " + tratamento +
-                " - veterinario " + veterinario.getNome();
+                " - veterinario = " + veterinario.getNome() +
+                "\n";
     }
 }

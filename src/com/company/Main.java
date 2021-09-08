@@ -29,70 +29,56 @@ public class Main {
         Proprietario diana = new Proprietario(16, "Diana", "Princesa", "15/12/1979", "Rua do tripa seca - SP", "(11)99999-9999.");
         Proprietario luiza = new Proprietario(17, "Luiza", "Aurora", "27/03/1969", "Rua do mão negra - SP", "(11)99999-9999.");
 
-        Consulta consulta1 = new Consulta("07/09/2021","Exame","Alergia","Troca do alimento");
-        Consulta consulta2 = new Consulta("08/09/2021","avaliação","Obesidade","Diminuiçao do alimento");
-        Consulta consulta3 = new Consulta("09/09/2021","avaliaçãp","Depressão","Passear mais com ele");
-        Consulta consulta4 = new Consulta("10/09/2021","Exame","Erlichiose","Aplicação de remedio");
-        Consulta consulta5 = new Consulta("11/09/2021","Exame","Insuficiensia renal","Dieta apropriada");
-        Consulta consulta6 = new Consulta("12/09/2021","avaliação","Otite","Antibiotico");
-        Consulta consulta7 = new Consulta("13/09/2021","Exame","Fratura","Cirurgia");
-
-
         Veterinario veterinario1 = new Veterinario("44455566677", "Hugo", "Alex", "5467878", "Cirurgião");
         Veterinario veterinario2 = new Veterinario("11122233344", "Francisco", "Agugusto", "9898766", "Fisioterapia Veterinária");
         Veterinario veterinario3 = new Veterinario("55566677788", "Manuella", "de Jesus", "2365784", "Clinico");
         Veterinario veterinario4 = new Veterinario("88899900011", "Antonia", "Fraga", "9878766", "Laboratorial");
-        Consulta consulta8 = new Consulta("14/09/2021","avaliação","Cinomose","Vacinação", veterinario1);
+
+        Consulta consulta1 = new Consulta("07/09/2021","Exame","Alergia","Troca do alimento", veterinario3);
+        Consulta consulta2 = new Consulta("08/09/2021","avaliação","Obesidade","Diminuiçao do alimento", veterinario2);
+        Consulta consulta3 = new Consulta("09/09/2021","avaliaçãp","Depressão","Passear mais com ele", veterinario3);
+        Consulta consulta4 = new Consulta("10/09/2021","Exame","Erlichiose","Aplicação de remedio", veterinario4);
+        Consulta consulta5 = new Consulta("11/09/2021","Exame","Insuficiensia renal","Dieta apropriada", veterinario3);
+        Consulta consulta6 = new Consulta("12/09/2021","avaliação","Otite","Antibiotico", veterinario3);
+        Consulta consulta7 = new Consulta("13/09/2021","Exame","Fratura","Cirurgia", veterinario1);
+        Consulta consulta8 = new Consulta("14/09/2021","avaliação","Cinomose","Vacinação", veterinario2);
 
         System.out.println("Qual o numero do paciente ? //Ex 1 a 8.");
         numero = teclado.nextInt();
 
-//        System.out.println(consulta8.toString());
+        System.out.println(consulta8.toString());
         if (numero == 1) {
             System.out.println(caes+"\n");
             System.out.println(rafael+"\n");
             System.out.println(consulta1+"\n");
-//            System.out.println(veterinario3);
         }else if (numero == 2){
             System.out.println(gatos+"\n");
             System.out.println(maria+"\n");
             System.out.println(consulta2+"\n");
-            System.out.println(veterinario2);
         }else if (numero == 3){
             System.out.println(porquinhos+"\n");
             System.out.println(irani+"\n");
             System.out.println(consulta3+"\n");
-            System.out.println(veterinario3);
         }else if (numero == 4){
             System.out.println(coelhos+"\n");
             System.out.println(jose+"\n");
             System.out.println(consulta4+"\n");
-            System.out.println(veterinario4);
         }else if (numero == 5){
             System.out.println(tartarugas+"\n");
             System.out.println(lucas+"\n");
             System.out.println(consulta5+"\n");
-            System.out.println(veterinario3);
         }else if (numero == 6){
             System.out.println(cavalos+"\n");
             System.out.println(artur+"\n");
             System.out.println(consulta6+"\n");
-            System.out.println(veterinario3);
         }else if (numero == 7){
             System.out.println(vacas+"\n");
             System.out.println(diana+"\n");
             System.out.println(consulta7+"\n");
-            System.out.println(veterinario1);
         }else if (numero == 8){
             System.out.println(ovelhas+"\n");
             System.out.println(luiza+"\n");
             System.out.println(consulta8+"\n");
-            System.out.println(veterinario2);
         }
-
-
-
-
-
    }
 }

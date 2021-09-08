@@ -25,7 +25,7 @@ public class Proprietario {
                 " - Nome = " + nome +
                 " - Sobrenome = " + sobrenome +
                 " - Data de Nascimento = " + dataNascimento +
-                " \n             -- Endereço = " + endereco +
+                " \n                -- Endereço = " + endereco +
                 " - Telefone para contato = " + telefone_contato;
     }
 }
