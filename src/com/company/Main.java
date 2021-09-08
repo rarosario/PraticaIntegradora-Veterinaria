@@ -36,21 +36,23 @@ public class Main {
         Consulta consulta5 = new Consulta("11/09/2021","Exame","Insuficiensia renal","Dieta apropriada");
         Consulta consulta6 = new Consulta("12/09/2021","avaliação","Otite","Antibiotico");
         Consulta consulta7 = new Consulta("13/09/2021","Exame","Fratura","Cirurgia");
-        Consulta consulta8 = new Consulta("14/09/2021","avaliação","Cinomose","Vacinação");
+
 
         Veterinario veterinario1 = new Veterinario("44455566677", "Hugo", "Alex", "5467878", "Cirurgião");
         Veterinario veterinario2 = new Veterinario("11122233344", "Francisco", "Agugusto", "9898766", "Fisioterapia Veterinária");
         Veterinario veterinario3 = new Veterinario("55566677788", "Manuella", "de Jesus", "2365784", "Clinico");
         Veterinario veterinario4 = new Veterinario("88899900011", "Antonia", "Fraga", "9878766", "Laboratorial");
+        Consulta consulta8 = new Consulta("14/09/2021","avaliação","Cinomose","Vacinação", veterinario1);
 
         System.out.println("Qual o numero do paciente ? //Ex 1 a 8.");
         numero = teclado.nextInt();
 
+//        System.out.println(consulta8.toString());
         if (numero == 1) {
             System.out.println(caes+"\n");
             System.out.println(rafael+"\n");
             System.out.println(consulta1+"\n");
-            System.out.println(veterinario3);
+//            System.out.println(veterinario3);
         }else if (numero == 2){
             System.out.println(gatos+"\n");
             System.out.println(maria+"\n");

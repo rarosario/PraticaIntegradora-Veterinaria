@@ -16,6 +16,26 @@ public class Veterinario {
         this.especialidade = especialidade;
     }
 
+    public String getRg() {
+        return rg;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getSobrenome() {
+        return sobrenome;
+    }
+
+    public String getNumeroDeRegistro() {
+        return numeroDeRegistro;
+    }
+
+    public String getEspecialidade() {
+        return especialidade;
+    }
+
     @Override
     public String toString() {
         return "Veterinario(a) " +
